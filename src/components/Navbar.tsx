@@ -1,5 +1,5 @@
 "use client";
-import { useCart } from "@/context/CartContext";
+import { useCart } from "../context/CartContext";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Skeleton from "react-loading-skeleton";

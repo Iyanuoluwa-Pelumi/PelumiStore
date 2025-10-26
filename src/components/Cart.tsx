@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useCart } from "@/context/CartContext";
+import { useCart } from "../context/CartContext";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { useState, useEffect } from "react";
